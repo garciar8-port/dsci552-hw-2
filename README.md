@@ -2,7 +2,7 @@
 
 Rodrigo Garcia · GitHub: garciar8-port
 
-The executed notebook answers questions 1(a-j), 2, and 3. The dataset is included, so no download is needed to run the analysis.
+The notebook answers questions 1(a-j), 2, and 3. The dataset is included.
 
 ## Run locally
 
@@ -18,14 +18,12 @@ python -m ipykernel install --user --name dsci552-hw2 --display-name "Python (DS
 python -m notebook Garcia_Rodrigo_HW2.ipynb
 ```
 
-On Windows, activate with `.venv/Scripts/activate` in Git Bash or `.venv/Scripts/Activate.ps1` in PowerShell. Select **Python (DSCI 552 HW2)**, restart the kernel, run all cells, and save the notebook with its outputs.
-
 ## Files
 
 - `Garcia_Rodrigo_HW2.ipynb`: analysis, written answers, tables, and figures.
-- `requirements.txt`: pinned analysis and local Jupyter dependencies.
+- `requirements.txt`: local Jupyter dependencies.
 - `data/CCPP/Folds5x2_pp.xlsx`: supplied workbook; only Sheet1 is used.
 - `data/CCPP/Readme.txt`: original dataset description and paper references.
 
-The notebook uses paths relative to this directory and random seed 552.
+The notebook uses paths relative to this directory.
 
